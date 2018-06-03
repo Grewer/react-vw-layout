@@ -9,9 +9,10 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 200px;
   padding: 20px;
   color: white;
+  width:100%;
 }
 
 .App-title {
@@ -25,4 +26,9 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+img {
+  content: normal !important;
+  /*适配低版本安卓机型*/
 }
