@@ -12,7 +12,9 @@
   height: 200px;
   padding: 20px;
   color: white;
-  width:100%;
+  width:750px;
+  /*可在 config/webpack.config.{dev|prod}.js 中 postcssPxToViewport 设置*/
+  /*750px === 100 vw*/
 }
 
 .App-title {
