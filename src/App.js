@@ -14,7 +14,7 @@ class App extends Component {
         <div styleName="myBorder">
           内容
         </div>
-        <p styleName="App-intro">
+        <p className={styles["App-intro"]}>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
